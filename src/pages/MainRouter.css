@@ -1,0 +1,55 @@
+.section-title {
+  font-size: 50px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.main-background {
+  background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer2.webp);
+  width:auto;
+  min-width: 3367px;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:-400px;
+  z-index: -10;
+  transform: perspective(200px) !important;
+  transform: translateZ(20px) !important;
+  transform: scale(1) !important;
+}
+
+.main-container {
+  width: auto;
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer1.webp);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -5;
+  left: 50px;
+  top: 0;
+  overflow: visible;
+  transform: perspective(200px) !important;
+  transform: translateZ(100px) !important;
+  transform: scale(1) !important;
+}
+
+.viewport-wrapper {
+  background-color: rgba(224, 255, 27, 0.25);
+  backdrop-filter: blur(12px);
+  position: absolute;
+  left: 100vw;
+  width: fit-content;
+  height: 100vh;
+  z-index: 5;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  transform: perspective(200px) !important;
+  transform: translateZ(180px) !important;
+  transform: scale(1) !important;
+
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,20 @@
+:root {
+  --primary: #860029;
+  --secondary: #321450;
+  --tertiary: #f887ff;
+  --accent-one: #de004e;
+  --accent-two: #29132e;
+  --c-yellow: rgb(224, 255, 27);
+
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--c-yellow) !important;
+}
+
+* {
+  font-family: "Supreme", sans-serif;
+  color: black;
+}

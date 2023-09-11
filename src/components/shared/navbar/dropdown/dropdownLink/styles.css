@@ -1,0 +1,30 @@
+.dropdown-link {
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.433);
+    font-family: "Supreme", sans-serif !important;
+    font-weight: 800;
+    font-size: 3rem;
+    font-feature-settings: "palt";
+  }
+  
+  .dropdown-link-index {
+    font-size: 1.5rem;
+  }
+  
+  .nav-large-index {
+    font-size: 4rem;
+    align-self: flex-end;
+  
+    font-family: "Supreme", sans-serif;
+    font-weight: 800;
+    font-feature-settings: "palt";
+    font-synthesis: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+  }

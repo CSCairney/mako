@@ -1,0 +1,70 @@
+.menu-logo {
+  width: 50px;
+  height: auto;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+.nav-container {
+  height: 100vh;
+  width: 4.5vw;
+  min-width: 50px;
+  background-color: var(--c-yellow);
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.nav-segements {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav-branding {
+  margin-top: 50px;
+  height: 60%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.nav-trademark {
+  margin-bottom: 30px;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.nav-company {
+  transform: rotate(270deg);
+  font-size: 15px;
+  white-space: nowrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 45vw;
+  background-color: var(--c-yellow);
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.dropdown-link-container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.dropdown-title-container {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-self: flex-end;
+}
