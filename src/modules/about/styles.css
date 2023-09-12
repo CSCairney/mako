@@ -1,0 +1,13 @@
+.about {
+    width: fit-content;
+    min-width: 500px;
+    max-height: 100vh;
+    padding: 40px;
+}
+
+.about-information {
+    font-size: 20px;
+    margin-top: 50px;
+    width: 100%;
+    max-height:100vh;
+}

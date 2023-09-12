@@ -1,0 +1,33 @@
+.artwork-title {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+
+.artwork-container {
+    filter: drop-shadow(0 0 0.75rem black);
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artwork-container:hover {
+    cursor: pointer;
+}
+
+.artwork-image {
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border: 2px solid white;
+}
+
+.artwork-image:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 0.2s;
+}
