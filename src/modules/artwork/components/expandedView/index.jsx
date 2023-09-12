@@ -1,12 +1,11 @@
-import React, { useState } from "react";
 import "./styles.css";
 
-const ExpandedView = ({ label, image, visible }) => {
+const ExpandedView = ({ label, image, visible, close }) => {
 
   return (
     <>
       {visible && (
-        <div className='artwork-large-container'>
+        <div className='artwork-large-container' onClick={close}>
           <img className='artwork-large-image' alt={label} src={image}></img>
         </div>
       )}

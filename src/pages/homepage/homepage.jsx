@@ -1,6 +1,5 @@
 import React from "react";
 import "./homepage.css";
-import { useState } from "react";
 import Menu from "../../modules/common/components/navbar";
 
 import bluegirl from "../../assets/artwork/BlueGirl.webp";
@@ -9,31 +8,6 @@ import yellowgirl from "../../assets/artwork/YellowGirl.webp";
 import Artwork from "../../modules/artwork/components";
 
 function Homepage() {
-  const [displayYellow, setDisplayYellow] = useState(false);
-  const [displayRed, setDisplayRed] = useState(false);
-  const [displayBlue, setDisplayBlue] = useState(false);
-
-  const Yellow = () => {
-    if (displayYellow) {
-      setDisplayYellow(false);
-    } else {
-      setDisplayYellow(true);
-    }
-  };
-  const Blue = () => {
-    if (displayBlue) {
-      setDisplayBlue(false);
-    } else {
-      setDisplayBlue(true);
-    }
-  };
-  const Red = () => {
-    if (displayRed) {
-      setDisplayRed(false);
-    } else {
-      setDisplayRed(true);
-    }
-  };
 
   return (
     <>

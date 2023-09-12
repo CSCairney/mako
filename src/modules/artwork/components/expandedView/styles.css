@@ -3,13 +3,10 @@
     border: 2px solid white;
     width: 45%;
     height: auto;
-    position: fixed;
-    display: flex;
-    margin-top:70px;
-    margin-left:160px;
+    display: grid;
+    position: absolute;
     z-index: 20;
-    left: 450px !important;
-    top: 100px !important;
+    place-items: center;
 }
 .artwork-large-container:hover {
     cursor: pointer;
