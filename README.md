@@ -17,7 +17,7 @@ Before you begin, make sure you have the following installed:
 1. Clone the repository to your local machine using Git:
 
    ```shell
-   git clone https://github.com/your-username/revenge-pop-clone.git](https://github.com/CSCairney-GL/mako.git
+   git clone https://github.com/CSCairney-GL/mako.git
    ```
 
 2. Navigate to the project directory:
