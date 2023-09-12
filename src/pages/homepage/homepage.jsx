@@ -1,11 +1,12 @@
 import React from "react";
 import "./homepage.css";
 import { useState } from "react";
-import Menu from "../../components/shared/navbar";
+import Menu from "../../modules/common/components/navbar";
 
 import bluegirl from "../../assets/artwork/BlueGirl.webp";
 import redgirl from "../../assets/artwork/RedGirl.webp";
 import yellowgirl from "../../assets/artwork/YellowGirl.webp";
+import Artwork from "../../modules/artwork/components";
 
 function Homepage() {
   const [displayYellow, setDisplayYellow] = useState(false);
@@ -87,39 +88,9 @@ function Homepage() {
               Artwork
             </h1>
             <div className='artwork-wrapper'>
-              {displayYellow ? (
-                <div className='artwork-large-container' onClick={Yellow}>
-                  <img className='artwork-large-image' alt='anime artwork' src={yellowgirl}></img>
-                </div>
-              ) : (
-                <></>
-              )}
-              {displayRed ? (
-                <div className='artwork-large-container' onClick={Red}>
-                  <img className='artwork-large-image' alt='anime artwork' src={redgirl}></img>
-                </div>
-              ) : (
-                <></>
-              )}
-              {displayBlue ? (
-                <div className='artwork-large-container' onClick={Blue}>
-                  <img className='artwork-large-image' alt='anime artwork' src={bluegirl}></img>
-                </div>
-              ) : (
-                <></>
-              )}
-              <div className='artwork-container' onClick={Red}>
-                <img className='artwork-image' alt='anime artwork' src={redgirl}></img>
-                <p className='artwork-title'>"REVENGE POP"</p>
-              </div>
-              <div className='artwork-container' onClick={Blue}>
-                <img className='artwork-image' alt='anime artwork' src={bluegirl}></img>
-                <p className='artwork-title'>"POP"</p>
-              </div>
-              <div className='artwork-container' onClick={Yellow}>
-                <img className='artwork-image' alt='anime artwork' src={yellowgirl}></img>
-                <p className='artwork-title'>"REVENGE"</p>
-              </div>
+              <Artwork title="REVENGE POP" label="REVENGE POP artwork" image={redgirl} />
+              <Artwork title="POP" label="POP artwork" image={bluegirl} />
+              <Artwork title="REVENGE" label="REVENGE artwork" image={yellowgirl} />
             </div>
           </div>
         </div>
