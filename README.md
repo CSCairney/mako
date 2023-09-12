@@ -51,9 +51,10 @@ You can explore the application and interact with it just like the original [Rev
 The project structure is organized as follows:
 
 - `src/`: This directory contains the source code for the React application.
-  - `components/`: Contains reusable React components.
-  - `redux/`: Contains Redux-related code, including actions, reducers, and the Redux store setup.
-  - `styles/`: Contains CSS styles for the application.
+  - `modules/`: Contains segments of the code base region specific.
+  - `modules/common`: Contains components that are shared across the code base.
+  - `assets`: Contains branding and images.
+  - `pages` : Contains the main component pages and react App Router main router.
   - `App.js`: The main application component.
   - `index.js`: Entry point of the application.
 - `public/`: Static assets and HTML template files.
