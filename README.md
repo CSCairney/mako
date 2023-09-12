@@ -1,4 +1,4 @@
-# Revenge Pop Clone
+# Revenge Pop Clone (Mako)
 
 This project is a React application that uses Beam for animations and Redux for state management. The goal is to attempt to recreate the website [Revenge Pop](https://revenge-pop.mikapikazo.info/) by Mika Pikazo.
 
@@ -17,13 +17,13 @@ Before you begin, make sure you have the following installed:
 1. Clone the repository to your local machine using Git:
 
    ```shell
-   git clone https://github.com/your-username/revenge-pop-clone.git
+   git clone https://github.com/your-username/revenge-pop-clone.git](https://github.com/CSCairney-GL/mako.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd revenge-pop-clone
+   cd mako
    ```
 
 3. Install the project dependencies using npm:
