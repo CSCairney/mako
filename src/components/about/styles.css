@@ -1,13 +1,18 @@
 .about {
     width: fit-content;
-    min-width: 500px;
-    max-height: 100vh;
     padding: 40px;
 }
 
+.about-title {
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
 .about-information {
-    font-size: 20px;
-    margin-top: 50px;
-    width: 100%;
-    max-height:100vh;
+    margin-top: 40px;
+    white-space: pre-line;
+    line-height: 1.6;
+    word-wrap: break-word;
+    text-align: justify;
 }
