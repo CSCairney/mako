@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Main from "./main/Main";
 
-import "./router.css";
+import "./pageRouter.css";
 
 function PageRouter() {
   return (

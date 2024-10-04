@@ -1,18 +1,82 @@
+/* General styling for the section title */
+.section-title {
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/* Parallax layers */
+.main-background {
+    background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer2.webp);
+    width: auto;
+    min-width: 3367px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    width: auto;
+    min-width: 100vw;
+    height: 100vh;
+    background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer1.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* The foreground parallax layer */
+.parallax-container {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+}
+
+.viewport-wrapper {
+    background-color: rgba(224, 255, 27, 0.25);
+    backdrop-filter: blur(12px);
+    position: absolute;
+    left: 100vw;
+    width: fit-content;
+    height: 100vh;
+    z-index: 5;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+    transform: perspective(200px) !important;
+    transform: translateZ(180px) !important;
+    transform: scale(1) !important;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Artwork section */
 .artwork {
     margin-left: 40px;
-    width:fit-content;
-    height:100vh;
+    width: fit-content;
+    height: 100vh;
     border-left: 1px solid black;
     border-right: 1px solid black;
     padding: 40px;
 }
 
 .artwork-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-  width: fit-content;
-  gap: 20px;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    gap: 20px;
 }
