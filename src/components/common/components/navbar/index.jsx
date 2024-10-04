@@ -4,7 +4,7 @@ import Toggler from "./toggler";
 import "./styles.css";
 import Dropdown from "./dropdown";
 
-function Menu() {
+function NavBar() {
   const [dropdownStatus, setDropdownStatus] = useState(false);
 
   const toggleDropdown = (status) => {
@@ -31,4 +31,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default NavBar;

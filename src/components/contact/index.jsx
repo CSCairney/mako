@@ -3,7 +3,7 @@ import "./styles.css";
 const Contact = () => {
     return (
         <div className='contact'>
-            <h1 id='contact' className='section-title'>
+            <h1 id='contact' className='contact-title'>
               Charles Cairney
             </h1>
             <p className='contact-information'>

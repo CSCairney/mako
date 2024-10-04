@@ -1,12 +1,15 @@
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import MainRouter from "./pages/MainRouter";
+import PageRouter from "./pages/PageRouter";
+import useHorizontalScroll from "./hooks/useHorizontalScroll";
 
 function App() {
+    useHorizontalScroll();
+
   return (
     <>
       <Router>
-        <MainRouter />
+        <PageRouter />
       </Router>
     </>
   );

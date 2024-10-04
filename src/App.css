@@ -5,16 +5,32 @@
   --accent-one: #de004e;
   --accent-two: #29132e;
   --c-yellow: rgb(224, 255, 27);
-
 }
+
+::-webkit-scrollbar {
+  height: 0; /* Hides the scrollbar in Webkit browsers (Chrome, Safari) */
+}
+
+::-webkit-scrollbar {
+  height: 8px; /* Customize height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* Match your theme color */
+  border-radius: 10px;
+}
+
+
 body {
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
   background-color: var(--c-yellow) !important;
-}
 
-* {
-  font-family: "Supreme", sans-serif;
-  color: black;
+  -ms-overflow-style: none;  /* Hides the scrollbar in IE and Edge */
+  scrollbar-width: none;     /* Hides the scrollbar in Firefox */
+  display: flex;
+  white-space: nowrap; /* Forces content to stay in a single line */
 }

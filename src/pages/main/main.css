@@ -1,0 +1,12 @@
+.container {
+    background-color: rgba(224, 255, 27, 0.25);
+    backdrop-filter: blur(12px);
+    position: absolute;
+    left: 100vw;
+    width: auto;
+    border-left: 1px solid black;
+
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 600px 1000px auto;
+}
