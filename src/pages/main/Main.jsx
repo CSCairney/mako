@@ -1,19 +1,19 @@
 import React from "react";
-import "./homepage.css";
-import Menu from "../../modules/common/components/navbar";
+import "./main.css";
 
 import bluegirl from "../../assets/artwork/BlueGirl.webp";
 import redgirl from "../../assets/artwork/RedGirl.webp";
 import yellowgirl from "../../assets/artwork/YellowGirl.webp";
-import Artwork from "../../modules/artwork/components";
-import ScrollBar from "../../modules/common/components/scrollBar";
-import About from "../../modules/about";
-import Contact from "../../modules/contact";
+import ScrollBar from "../../components/common/components/scrollBar";
+import About from "../../components/about";
+import Contact from "../../components/contact";
+import Artwork from "../../components/artwork/components";
+import NavBar from "../../components/common/components/navbar";
 
-function Homepage() {
+function Main() {
   return (
     <>
-      <Menu />
+      <NavBar />
       <div className='parallax-container'>
         <div className='main-container' />
         <div className='main-background' />
@@ -37,4 +37,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default Main;

@@ -54,7 +54,7 @@ The project structure is organized as follows:
   - `modules/`: Contains segments of the code base region specific.
   - `modules/common`: Contains components that are shared across the code base.
   - `assets`: Contains branding and images.
-  - `pages` : Contains the main component pages and react App Router main router.
+  - `pages` : Contains the main component pages and react App PageRouter main router.
   - `App.js`: The main application component.
   - `index.js`: Entry point of the application.
 - `public/`: Static assets and HTML template files.
