@@ -1,0 +1,28 @@
+/* Parallax layers */
+.parallax-far {
+    background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer2.webp);
+    width: auto;
+    min-width: 3367px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateX(calc(-50vw + 0.5 * 100vw)); /* Slower movement for parallax effect */
+}
+
+.parallax-middle {
+    width: auto;
+    min-width: 100vw;
+    height: 100vh;
+    background-image: url(https://revenge-pop.mikapikazo.info/assets/image/kv-yellow/layer1.webp);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateX(calc(-50vw + 0.75 * 100vw)); /* Faster movement for parallax effect */
+}

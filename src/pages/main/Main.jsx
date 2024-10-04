@@ -9,28 +9,25 @@ import About from "../../components/about";
 import Contact from "../../components/contact";
 import Artwork from "../../components/artwork/components";
 import NavBar from "../../components/common/components/navbar";
+import ParallaxBackground from "../../components/parallax/ParallaxBackground";
 
 function Main() {
   return (
       <>
+        <ParallaxBackground />
         <NavBar />
-        <div className="parallax-wrapper">
-          <div className="parallax-container"></div>
-          <div className="main-container"></div>
-          <div className="main-background"></div>
-          <ScrollBar />
-          <div className="viewport-wrapper">
-            <About />
-            <Contact />
-            <div className="artwork">
-              <h1 id="artwork" className="section-title">
-                Artwork
-              </h1>
-              <div className="artwork-wrapper">
-                <Artwork title="REVENGE POP" label="REVENGE POP artwork" image={redgirl} />
-                <Artwork title="POP" label="POP artwork" image={bluegirl} />
-                <Artwork title="REVENGE" label="REVENGE artwork" image={yellowgirl} />
-              </div>
+        <ScrollBar />
+        <div className="viewport-wrapper">
+          <About />
+          <Contact />
+          <div className="artwork">
+            <h1 id="artwork" className="section-title">
+              Artwork
+            </h1>
+            <div className="artwork-wrapper">
+              <Artwork title="REVENGE POP" label="REVENGE POP artwork" image={redgirl} />
+              <Artwork title="POP" label="POP artwork" image={bluegirl} />
+              <Artwork title="REVENGE" label="REVENGE artwork" image={yellowgirl} />
             </div>
           </div>
         </div>

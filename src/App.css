@@ -25,21 +25,12 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: auto; /* Use auto for horizontal scrolling */
-  overflow-y: hidden; /* Ensure no vertical scroll */
+  overflow-x: scroll;
+  overflow-y: hidden;
   background-color: var(--c-yellow) !important;
 
-  scroll-snap-type: x mandatory; /* Enable horizontal snapping */
-  scroll-behavior: smooth; /* Smooth horizontal scroll */
-  width: 100vw;
-  height: 100vh;
-
+  -ms-overflow-style: none;  /* Hides the scrollbar in IE and Edge */
+  scrollbar-width: none;     /* Hides the scrollbar in Firefox */
   display: flex;
-  flex-direction: row; /* Horizontal layout */
-  white-space: nowrap; /* Force content to stay in one line */
-
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
-  -ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
-  scrollbar-width: none; /* Hides scrollbar in Firefox */
+  white-space: nowrap; /* Forces content to stay in a single line */
 }
-
